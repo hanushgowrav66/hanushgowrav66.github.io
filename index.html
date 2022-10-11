@@ -1,428 +1,493 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
 	<title>Hanush Gowrav</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
-  	<script src="js/jquery.min.js"></script>
-    <link href="css/style.css" rel='stylesheet' type='text/css' />
-    <link rel="shortcut icon" type="image/x-icon" href="imgs/icon.png" />
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <link href='//fonts.googleapis.com/css?family=Asap:400,700,400italic' rel='stylesheet' type='text/css'>
-    <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
-    <script type="text/javascript" src="js/move-top.js"></script>
-    <script type="text/javascript" src="js/easing.js"></script>
-    <script type="text/javascript">
-    jQuery(document).ready(function ($) 
-    {
-      $(".scroll").click(function (event) 
-      {
-        event.preventDefault();
-        $('html,body').animate(
-        {
-          scrollTop: $(this.hash).offset().top
-        }, 1000);
-      });
-    });
-    </script>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+	<link rel="stylesheet" href="css/animate.css">
 
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+
+	<link rel="stylesheet" href="css/aos.css">
+
+	<link rel="stylesheet" href="css/ionicons.min.css">
+
+	<link rel="stylesheet" href="css/flaticon.css">
+	<link rel="stylesheet" href="css/icomoon.css">
+	<link rel="stylesheet" href="scss/style.css">
 </head>
-<body>
-	<div id="home" class="header">
+
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
+
+	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
 		<div class="container">
-		<div class="top-header">
-        <div class="top-nav">
-          <div class="navigation">
-            <div class="logo">
-              <h1><a href="index.html"><img src="imgs/hacker.png" width="50" height="50"></a></h1>
-            </div>
-            <div class="navigation-right">
-              <span class="menu"><img src="imgs/menu.png" alt=" " /></span>
-              <nav class="link-effect-3" id="link-effect-3">
-                <ul class="nav1 nav nav-wil">
-                  <li class="active"><a data-hover="Home" href="index.html">Home</a></li>
-                  <li><a class="scroll" data-hover="About" href="#about">About</a></li>
-                  <li><a class="scroll" data-hover="Skills" href="#services">Skills</a></li>
-                  <li><a class="scroll" data-hover="Projects" href="#blogs">Projects</a></li>
-                  <li><a class="scroll" data-hover="Contact" href="#contact">Contact</a></li>
-                </ul>
-              </nav>
-              <script>
-                $("span.menu").click(function () {
-                  $("ul.nav1").slideToggle(300, function () {
-                  });
-                });
-              </script>
-            </div>
-            <div class="clearfix"></div>
-          </div>
-        </div>
-        <div class="banner-info">
-          <div class="col-md-7 header-right">
-           <h2>HANUSH GOWRAV GOWDA K S</h2>
-            <div class="hero__links">
-              <a href="docs/Hanush Gowrav Resume.pdf" target="_blank" class="hero__resume btn" title="Click to view my Resume">View Resume</a>
-              <ul class="hero__social">
-                <li>
-                  <a href="https://github.com/hanushgowrav66" rel="noopener" target="_blank" title="Github">
-                    <svg version="1.1" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M896 128q209 0 385.5 103t279.5 279.5 103 385.5q0 251-146.5 451.5t-378.5 277.5q-27 5-40-7t-13-30q0-3 .5-76.5t.5-134.5q0-97-52-142 57-6 102.5-18t94-39 81-66.5 53-105 20.5-150.5q0-119-79-206 37-91-8-204-28-9-81 11t-92 44l-38 24q-93-26-192-26t-192 26q-16-11-42.5-27t-83.5-38.5-85-13.5q-45 113-8 204-79 87-79 206 0 85 20.5 150t52.5 105 80.5 67 94 39 102.5 18q-39 36-49 103-21 10-45 15t-57 5-65.5-21.5-55.5-62.5q-19-32-48.5-52t-49.5-24l-20-3q-21 0-29 4.5t-5 11.5 9 14 13 12l7 5q22 10 43.5 38t31.5 51l10 23q13 38 44 61.5t67 30 69.5 7 55.5-3.5l23-4q0 38 .5 88.5t.5 54.5q0 18-13 30t-40 7q-232-77-378.5-277.5t-146.5-451.5q0-209 103-385.5t279.5-279.5 385.5-103zm-477 1103q3-7-7-12-10-3-13 2-3 7 7 12 9 6 13-2zm31 34q7-5-2-16-10-9-16-3-7 5 2 16 10 10 16 3zm30 45q9-7 0-19-8-13-17-6-9 5 0 18t17 7zm42 42q8-8-4-19-12-12-20-3-9 8 4 19 12 12 20 3zm57 25q3-11-13-16-15-4-19 7t13 15q15 6 19-6zm63 5q0-13-17-11-16 0-16 11 0 13 17 11 16 0 16-11zm58-10q-2-11-18-9-16 3-14 15t18 8 14-14z"></path></svg>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.linkedin.com/in/hanushgowrav66/" rel="noopener" title='LinkedIn' target="_blank">
-                   <svg version="1.1" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M477 625v991h-330v-991h330zm21-306q1 73-50.5 122t-135.5 49h-2q-82 0-132-49t-50-122q0-74 51.5-122.5t134.5-48.5 133 48.5 51 122.5zm1166 729v568h-329v-530q0-105-40.5-164.5t-126.5-59.5q-63 0-105.5 34.5t-63.5 85.5q-11 30-11 81v553h-329q2-399 2-647t-1-296l-1-48h329v144h-2q20-32 41-56t56.5-52 87-43.5 114.5-15.5q171 0 275 113.5t104 332.5z"></path>
-                    </svg>
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <ul class="address">
-              <li>
-                <ul class="address-text">
-                  <li><b>D.O.B</b></li>
-                  <li>06-JUN-2000</li>
-                </ul>
-              </li>
-              <li>
-                <ul class="address-text">
-                  <li><b>MOBILE </b></li>
-                  <li>+91 9686527365</li>
-                </ul>
-              </li>
-              <li>
-                <ul class="address-text">
-                  <li><b>ADDRESS </b></li>
-                  <li>Bangalore, India.</li>
-                </ul>
-              </li>
-              <li>
-                <ul class="address-text">
-                  <li><b>E-MAIL </b></li>
-                  <li><a href="mailto:hanushgowrav66@gmail.com"> hanushgowrav66@gmail.com</a></li>
-                </ul>
-              </li>
-              <li>
-                <ul class="address-text">
-                  <li><b>WEBSITE </b></li>
-                  <li><a href="https://hanushgowrav66.github.io/Portfolio">Hanush Gowrav</a></li>
-                </ul>
-              </li>
+			<a class="navbar-brand" href="index.html">Hanush</a>
+			<button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse"
+				data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="oi oi-menu"></span> Menu
+			</button>
 
-            </ul>
-          </div>
-          <div class="clearfix"> </div>
-        </div>
-      </div>
-  </div>
-</div>
+			<div class="collapse navbar-collapse" id="ftco-nav">
+				<ul class="navbar-nav nav ml-auto">
+					<li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+					<li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
+					<li class="nav-item"><a href="#services-section" class="nav-link"><span>Projects</span></a></li>
+					<li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<section class="hero-wrap js-fullheight">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row no-gutters slider-text js-fullheight justify-content-center align-items-center">
+				<div class="col-lg-8 col-md-6 ftco-animate d-flex align-items-center">
+					<div class="text text-center">
+						<span class="subheading">Hey! I am</span>
+						<h1>Hanush Gowrav</h1>
+						<h2>I'm a Frontend Developer</h2>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+		<div class="mouse">
+			<a href="#" class="mouse-icon">
+				<div class="mouse-wheel"><span class="ion-ios-arrow-round-down"></span></div>
+			</a>
+		</div>
+	</section>
 
-<div id="about" class="about">
-    <div class="col-md-6 about-left">
-      <div id="owl-demo1" class="owl-carousel owl-carousel2">
-        <div class="item">
-          <div class="about-left-grid">
-          	<br><h2>My <span>Education</span></h2>
-            <p>Pursuing Bachelor of Engineering in Computer Sciences at <strong><a href="http://www.sjbit.edu.in/" target="_blank"> SJB Institute of Engineering & Technology</a></strong>, Bangalore, Karnataka.</p><p>Passed PU in Computer sceience from <strong>SVC PU College Tumkur</strong>, during the period of 2015 - 2017.</p><p>Passed out of <strong>SHV English School Hebbur</strong>, in 2015.</p>
-                  
-          </div>
-        </div>
-        <div class="item">
-          <div class="about-left-grid">
-            <br><h2>Free time or <span>Hobbies</span></h2>
-            <p>When I’m not in front of a computer I enjoy traveling,Photography, Music, Sports, Reading Books, Sports etc.</p>
-            <p>I have been fortunate to learn and having new experiences in general.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-6 about-right">
+	<section class="ftco-about img ftco-section ftco-no-pt ftco-no-pb goto-here" id="about-section">
+		<div class="container">
+			<div class="row d-flex no-gutters">
+				<div class="col-md-6 col-lg-6 d-flex">
+					<div class="img-about img d-flex align-items-stretch">
+						<div class="overlay"></div>
+						<div class="img d-flex align-self-stretch align-items-center"
+							style="background-image:url(images/profile.jpg);">
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-6 pl-md-5 py-5">
+					<div class="row justify-content-start pb-3">
+						<div class="col-md-12 heading-section ftco-animate">
+							<h2 class="mb-4">About Me</h2>
+							<p align="justify">A frontend developer with projects on his plate to better display knowledge and
+								skillset, a team leader who has to lead a team multiple times to success, a team
+								member who tries to contribute to the best of his ability, a person with an eye for
+								detail who aspires to develop beautiful, functional and performant applications.
+								 </p>
+							<ul class="about-info mt-4 px-md-0 px-2">
+								<li class="d-flex"><span>Name:</span> <span>Hanush Gowrav</span></li>
+								<li class="d-flex"><span>Date of birth:</span> <span>6<sup>th</sup> June, 2000</span>
+								</li>
+								<li class="d-flex"><span>Address:</span> <span>Bengaluru, Karnataka, India</span></li>
+								<li class="d-flex" style="flex-wrap: wrap"><span>Email:</span> <span><a
+											href="mailto:hanushgowrav66@gmail.com">hanushgowrav66@gmail.com</a></span></li>
+								<li class="d-flex"><span>Github:</span> <a href="https://github.com/hanushgowrav66"
+										target="_blank">github.com/hanushgowrav66/</a></li>
+								<li class="d-flex"><span>LinkedIn:</span> <a
+										href="https://www.linkedin.com/in/hanushgowrav66/"
+										target="_blank">linkedin.com/in/hanushgowrav66/</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="counter-wrap ftco-animate d-flex mt-md-3">
+						<div class="text">
+							<p><a href="./resume.pdf" class="btn btn-primary py-3 px-3" target="_blank">Download CV</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
-    </div>
-    <div class="clearfix"> </div>
-    <link href="css/owl.carousel.css" rel="stylesheet">
-    <script src="js/owl.carousel.js"></script>
-    <script>
-      $(document).ready(function () {
-        $("#owl-demo1").owlCarousel({
-          items: 1,
-          lazyLoad: false,
-          autoPlay: true,
-          navigation: false,
-          navigationText: false,
-          pagination: true,
-        });
-      });
-    </script>
-  </div>
+	<section class="ftco-section ftco-no-pb " id="resume-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<nav id="navi">
+						<ul>
+							<li><a href="#page-1">Education</a></li>
+							<li><a href="#page-2">Experience</a></li>
+							<li><a href="#page-3">Skills</a></li>
+							<li><a href="#page-4">Hobbies</a></li>
+						</ul>
+					</nav>
+				</div>
+<!-- EDUCATION -->
+				<div class="col-md-9">
+					<div id="page-1" class="page one">
+						<h2 class="heading">Education</h2>
+						<div class="resume-wrap d-flex ftco-animate">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="flaticon-school"></span>
+							</div>
+							<div class="text pl-3">
+								<span class="date">2021-2022</span>
+								<h2>Postgraduate Programme in Full Stack Engineering</h2>
+								<span class="position"><a href="https://bits-pilani-wilp.ac.in/" target="_blank">WILP - BITS PILANI</a></span>
+								<p>
+									Pursuing my Post Graduation in Full Stack Engineering under WILP - BITS PILANI University. I've worked on several projects and in various
+									events while maintaining an average <b>GPA</b> of <b>7.4</b>
+								</p>
+							</div>
+						</div>
+						<div class="resume-wrap d-flex ftco-animate">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="flaticon-school"></span>
+							</div>
+							<div class="text pl-3">
+								<span class="date">2017-2021</span>
+								<h2>B.E. in Computer Science and Engineering</h2>
+								<span class="position"><a href="http://sjbit.edu.in/" target="_blank">SJB Institute of
+										Technology</a></span>, Bangalore
+								<p>
+									Studied my Computer Science and Engineering under Visvesvaraya Technological
+									University, Belgaum. I've worked on several on several projects, while maintaining an average <b>CGPA</b> of <b>8.6</b>
+								</p>
+							</div>
+						</div>
+						<div class="resume-wrap d-flex ftco-animate">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="flaticon-school"></span>
+							</div>
+							<div class="text pl-3">
+								<span class="date">2015-2017</span>
+								<h2>11<sup>th</sup> & 12<sup>th</sup></h2>
+								<span class="position"><a href="#" >SVC PU College</a></span>, Tumkur
 
-  <div id="services" class="services">
-    <div class="container">
-      <div class="service-head one text-center ">
-        <h4>WHAT I DO</h4>
-        <h3>MY <span>SKILLS</span></h3>
-        <span class="border two"></span>
-      </div>
-      <div class="wthree_about_right_grids w3l-agile">
-        <div class="col-md-6 wthree_about_right_grid">
-          <div class="col-xs-2 wthree_about_right_grid_left">
-            <div class="hvr-rectangle-in">
-              <i class="glyphicon glyphicon-th-large"></i>
-            </div>
-          </div>
-          <div class="col-xs-10 wthree_about_right_grid_right">
-            <h4>Front-end Development</h4>
-          </div>
-          <div class="clearfix"> </div>
-          <div class="col-md-12 skill-group-div">
-            <div class="col-md-6 left-div">
-              <div class="progress skill-bar">
-                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
-                  <span class="skill">HTML <i class="val">90%</i></span>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 right-div">
-              <div class="progress skill-bar">
-                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
-                  <span class="skill">CSS <i class="val">80%</i></span>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 left-div">
-              <div class="progress skill-bar">
-                <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;">
-                  <span class="skill">Bootstrap <i class="val">85%</i></span>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 right-div">
-              <div class="progress skill-bar">
-                <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="72" aria-valuemin="0" aria-valuemax="100" style="width: 72%;">
-                  <span class="skill">Javascript<i class="val">72%</i></span>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 left-div">
-              <div class="progress skill-bar">
-                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
-                  <span class="skill">Jquery  <i class="val">75%</i></span>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 right-div">
-              <div class="progress skill-bar">
-                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%;">
-                  <span class="skill">ReactJs<i class="val">65%</i></span>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 left-div">
-              <div class="progress skill-bar">
-                <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-                  <span class="skill">AngularJs <i class="val">60%</i></span>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 right-div">
-              <div class="progress skill-bar">
-                <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-                  <span class="skill">MaterialUI<i class="val">60%</i></span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="clearfix"> </div>
-        </div>
-        </div>
-        <div class="col-md-6 wthree_about_right_grid">
-          <div class="col-xs-2 wthree_about_right_grid_left">
-            <div class="hvr-rectangle-in">
-              <i class="glyphicon glyphicon-leaf"></i>
-            </div>
-          </div>
-          <div class="col-xs-10 wthree_about_right_grid_right">
-            <h4>Server-side Development</h4>
-          </div>
-          <div class="clearfix"> </div>
-          <div class="col-md-12 skill-group-div">
-            <div class="progress skill-bar ">
-              <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
-                <span class="skill">PHP <i class="val">80%</i></span>
-              </div>
-            </div>
-              <div class="progress skill-bar">
-                <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;">
-                  <span class="skill">MySql <i class="val">85%</i></span>
-                </div>
-              </div>
-              <div class="progress skill-bar">
-                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
-                  <span class="skill">WordPress <i class="val">75%</i></span>
-                </div>
-              </div>
-            <div class="clearfix"></div>
-            <div class="progress skill-bar ">
-              <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-                <span class="skill">NodeJS <i class="val">60%</i></span>
-              </div>
-            </div>
-          </div>
-          <div class="clearfix"> </div>
-        </div>
-        <div class="clearfix"></div>
-        <span class="border two"></span>
-        <hr></hr>
+								<p>
+									Studied my Pre University course majoring in Computer Science and scoring
+									<b>87%</b> in my finals conducted by the Karnataka Board Pre University Exam
+								</p>
+							</div>
+						</div>
+						<div class="resume-wrap d-flex ftco-animate">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="flaticon-school"></span>
+							</div>
+							<div class="text pl-3">
+								<span class="date">2003-2015</span>
+								<h2>KG - 10<sup>th</sup></h2>
+								<span class="position"><a href="https://shvschoolhebbur.in/"
+										target="_blank">SHV English High School Hebburu</a></span>, Tumkur
 
-        <div class="col-md-6 wthree_about_right_grid">
-          <div class="col-xs-10 wthree_about_right_grid_right">
-            <h4>Programming Languages</h4>
-            <ul class="news">
-              <li>Python</li>
-              <li>Java</li>
-              <li>C</li>
-              <li>C++</li>
-              <li>C#</li>
-            </ul>
-          </div>
-          <div class="clearfix"> </div>
-        </div>
-        <div class="col-md-6 wthree_about_right_grid">
-          <div class="col-xs-10 wthree_about_right_grid_right">
-            <h4>Tools & IDs</h4>
-            <ul class="news">
-              <li>PyCharm</li>
-              <li>JuPyter</li>
-              <li>Eclipse</li>
-              <li>Turbo C & C++</li>
-          </ul>
-          <ul class="news">
-              <li>Sublime Text</li>
-              <li>VS Code</li>
-              <li>Atom</li>
-            </ul>
-          </div>
-          <div class="clearfix"> </div>
-        </div>
-      </div>
+								<p>
+									My school years were spent at Swargarani School. I participated in various
+									activities and
+									events. In my 10<sup>th</sup> final exam I scored <b>94%</b>
+								</p>
+							</div>
+						</div>
+					</div>
+<!-- EXPERIENCE -->
+					<div id="page-2" class="page two">
+						<h2 class="heading">Experience</h2>
+						<div class="resume-wrap d-flex ftco-animate">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="flaticon-portfolio"></span>
+							</div>
+							<div class="text pl-3">
+								<span class="date">August 2021 - Present</span>
+								<h2>Software Engineer - Frontend Developer</h2>
+								<a href="https://www.infrrd.ai/" target="_blank">Infrrd, Bangalore</a>
+								<p>Working as a frontend developer in ReactJS project. </p>
+							</div>
+						</div>
 
-<div class="blog" id="blogs">
-    <div class="container">
-      <div class="service-head text-center">
-        <h4>PROJECTS</h4>
-        <h3 style="color: white;">MY <span>PROJECT</span></h3>
-        <span class="border one"></span>
-      </div>
-      <div class="news-grid w3l-agile">
-        <div class="news-text">
-          <h3> <a href="https://github.com/hanushgowrav66/school-management-db" target="_blank">School Management System</a></h3>
-          <ul class="news">
-            <li>MySQL</li>
-            <li>PHP</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Java Script</li>
-            <li>JQuery</li>
-          </ul>
-          <p><strong>School Management System</strong><br>This a simple school management system database project, It can be used by using <strong>XAMPP</strong> Software and by using PHP and SQl this is created. It can easily used by any schools, it reduces the tasks in schools which is done by pen and paper work. By using this its easy to maintain the adminstrative work by schools like, adding students and staffs, assigning classes, exams, timetables,marks. ,making fees etc. and even parents can easily track their children academic results and activites.</p>
-          <a href="https://github.com/hanushgowrav66/school-management-db/tree/master/Sample%20Photos" rel="noopener" target="_blank"  class="read hvr-shutter-in-horizontal">Read More</a>
-        </div>
-        <div class="clearfix"></div>
-      </div>
-    </div>
-  </div>
+						<div class="resume-wrap d-flex ftco-animate">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="flaticon-portfolio"></span>
+							</div>
+							<div class="text pl-3">
+								<span class="date">August 2020 - September 2020</span>
+								<h2>Web Developer Intern</h2>
+								<a href="https://orsus.co.in/" target="_blank">Orsus Consulting Services
+								</a>
+								<p> Worked as a Web Developer for Orsus Consulting Services. 
+									Developed a responsive webpage compatible to all type of 
+									devices which is currently hosted in real world.</p>
+							</div>
+						</div>
+					</div>
+<!-- SKILLS -->
+					<div id="page-3" class="page three">
+						<h2 class="heading">Skills</h2>
+						<div class="row progress-circle mb-5">
+							<div class="col-lg-4 mb-4">
+								<div class="bg-white rounded-lg shadow p-4">
+									<h2 class="h5 font-weight-bold text-center">HTML</h2>
+								</div>
+							</div>
+							<div class="col-lg-4 mb-4">
+								<div class="bg-white rounded-lg shadow p-4">
+									<h2 class="h5 font-weight-bold text-center">CSS</h2>
+								</div>
+							</div>
+							<div class="col-lg-4 mb-4">
+								<div class="bg-white rounded-lg shadow p-4">
+									<h2 class="h5 font-weight-bold text-center">Javascript</h2>
+								</div>
+							</div>
+							<div class="col-lg-4 mb-4">
+								<div class="bg-white rounded-lg shadow p-4">
+									<h2 class="h5 font-weight-bold text-center">NodeJS</h2>
+								</div>
+							</div>
+							<div class="col-lg-4 mb-4">
+								<div class="bg-white rounded-lg shadow p-4">
+									<h2 class="h5 font-weight-bold text-center">ReactJS</h2>
+								</div>
+							</div>
+							<div class="col-lg-4 mb-4">
+								<div class="bg-white rounded-lg shadow p-4">
+									<h2 class="h5 font-weight-bold text-center">AngularJS</h2>
+								</div>
+							</div>
+							<div class="col-lg-4 mb-4">
+								<div class="bg-white rounded-lg shadow p-4">
+									<h2 class="h5 font-weight-bold text-center">REDUX</h2>
+								</div>
+							</div>
+							<div class="col-lg-4 mb-4">
+								<div class="bg-white rounded-lg shadow p-4">
+									<h2 class="h5 font-weight-bold text-center">SAGA</h2>
+								</div>
+							</div>
+							<div class="col-lg-4 mb-4">
+								<div class="bg-white rounded-lg shadow p-4">
+									<h2 class="h5 font-weight-bold text-center">Python</h2>
+								</div>
+							</div>
+							<div class="col-lg-4 mb-4">
+								<div class="bg-white rounded-lg shadow p-4">
+									<h2 class="h5 font-weight-bold text-center">SQL</h2>
+								</div>
+							</div>
+							<div class="col-lg-4 mb-4">
+								<div class="bg-white rounded-lg shadow p-4">
+									<h2 class="h5 font-weight-bold text-center">JAVA</h2>
+								</div>
+							</div>
+							<div class="col-lg-4 mb-4">
+								<div class="bg-white rounded-lg shadow p-4">
+									<h2 class="h5 font-weight-bold text-center">C / C++</h2>
+								</div>
+							</div>
+						</div>
+					</div>
+<!-- HOBBIES -->
+					<div id="page-4" class="page four">
+						<h2 class="heading">Hobbies</h2>
+						<div class="resume-wrap d-flex ftco-animate">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="icon-camera"></span>
+							</div>
+							<div class="text pl-3">
+								<h2>Photography & Videography</h2>
+								<a href="https://hanushgowrav66.github.io/gowravphotography" target="_blank">Gowrav Photography
+								</a>|&nbsp;&nbsp;<a href="https://www.instagram.com/gowrav_66/" target="_blank"><span class="icon-instagram"></span></a>
+								<p align=""justify">I have a very natural style of photography and my goal is always to capture the true essence of my subjects. 
+									I believe that every moment is special and should be captured in a way that is unique and memorable. 
+									I am always striving to create beautiful and timeless images.</p>
+							</div>
+						</div>
+						<div class="resume-wrap d-flex ftco-animate">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="icon-paint-brush"></span>
+							</div>
+							<div class="text pl-3">
+								<h2>Art & Painting</h2>
+								<a href="https://hanushgowrav66.github.io/gowravarts" target="_blank">Gowrav Arts
+								</a>|&nbsp;&nbsp;<a href="https://www.instagram.com/hanush_gowrav/" target="_blank"><span class="icon-instagram"></span></a>
+								<p>Check out my sketchs</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
-  <div class="footer" id="contact">
-    <div class="container">
-      <div class="service-head one text-center">
-        <h4>CONTACT ME</h4>
-        <h3>GET <span>IN TOUCH WITH ME</span></h3>
-        <span class="border two"></span>
-      </div>
-      <div class="mail_us">
-        <div class="col-md-6 mail_left">
-          <div class="contact-grid1-left">
-            <div class="contact-grid1-left1">
-              <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
-              <h4>Contact By Email</h4>
-              <ul>
-                <li><a href="mailto:hanushgowrav66@gmail.com">hanushgowrav66@gmail.com</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="contact-grid1-left">
-            <div class="contact-grid1-left1">
-              <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> </span>
-              <h4>Contact By Mobile</h4>
-              <ul>
-              	<a href="tel:+91-9686527365">+91-9686527365</a>
-              </ul>
-            </div>
-          </div>
-          <div class="contact-grid1-left">
-            <div class="contact-grid1-left1">
-              <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
-              <h4>Looking For Address</h4>
-              <a class="nav-link" href="https://goo.gl/maps/7QgBX1jYjngZW6rR8">Kodipalya, Kengeri, Bangalore</a>
-            </div>
-          </div>
-          <div class="clearfix"> </div>
-        </div>
-        <div class="col-md-6 mail_right">
-          <form action="#" method="post">
-            <input type="text" name="Name" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}"
-              required="">
-            <input type="email" name="Email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}"
-              required="">
-            <input type="text" name="Mobile number" value="Mobile number" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Mobile number';}"
-              required="">
-            <textarea name="Message..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message...';}" required="">Message...</textarea>
-            <input type="submit" value="Send">
-          </form>
-        </div>
-        <div class="clearfix"></div>
-      </div>
-      <div class="copy_right text-center">
-        <p class="float-left">&copy; 2020 Profile of Hanush Gowrav</p>
-        <p class="float-right">Design on top of <a href="http://w3layouts.com/" target="_blank">W3layouts.</a></p>
-        <ul class="hero__social">
-          <li>
-             <a class="nav-link" href="https://github.com/hanushgowrav66" rel="noopener" target="_blank" title="GitHub"><img src="imgs/github.png" width="30" height="30"></a>
-          </li>
-          <li>
-             <a class="nav-link" href="mailto:hanushgowrav66@gmail.com" rel="noopener" target="_blank" title="Gmail"><img src="imgs/gmail.png" width="30" height="30"></a>
-          </li>
-          <li>
-             <a class="nav-link" href="https://www.linkedin.com/in/hanushgowrav66" rel="noopener" target="_blank" title="LinkedIn"><img src="imgs/linkedin.png" width="30" height="30"></a>
-          </li>
-          <li>
-             <a class="nav-link" href="https://www.facebook.com/hanushgowrav66" rel="noopener" target="_blank" title="Facebook"><img src="imgs/facebook.png" width="30" height="30"></a>
-          </li>
-          <li>
-             <a class="nav-link" href="https://twitter.com/gowrav66" rel="noopener" target="_blank" title="Twitter"><img src="imgs/twitter.png" width="30" height="30"></a>
-          </li>
-          <li>
-             <a class="nav-link" href="tel:+91-9686527365" rel="noopener" target="_blank" title="WhatsApp"><img src="imgs/whatsapp.png" width="30" height="30"></a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <a href="#home" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
-  <script type="text/javascript">
-    $(document).ready(function () {
-      $('.progress .progress-bar').css("width",
-        function () {
-          return $(this).attr("aria-valuenow") + "%";
-        }
-      );
-      $().UItoTop({
-        easingType: 'easeOutQuart'
-      });
-    });
-  </script>
+<!-- PROJECTS -->
+	<section class="ftco-section" id="services-section">
+		<div class="container-fluid px-md-5">
+			<div class="row justify-content-center py-5 mt-5">
+				<div class="col-md-12 heading-section text-center ftco-animate">
+					<h1 class="big big-2">Projects</h1>
+					<h2 class="mb-4">Projects</h2>
+					<p>Here are some of the projects I made</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 text-center d-flex ftco-animate">
+					<a class="services-1 shadow">
+						<div class="desc">
+							<h3 class="mb-4">School Management System</h3>
+							<input type="button" class="view-proj btn  mt-1 mb-2 mx-3"
+								onclick="window.open('https://github.com/hanushgowrav66/school-management-db','_blank')"
+								value="View on github" />
+							<p align="justify">This a simple school management system database project.
+								It can be used by using XAMP Software and by using PHP and SQl this is created.</p>
+							<div class="tech-stack">
+								<ul>
+									<li>PHP</li>
+									<li>SQL</li>
+								</ul>
+							</div>
+						</div>
+					</a>
+				</div>
+
+				<div class="col-md-4 text-center d-flex ftco-animate">
+					<a class="services-1 shadow">
+						<div class="desc">
+							<h3 class="mb-4">Image Background Removal</h3>
+							<input type="button" class="view-proj btn  mt-1 mb-2 mx-3"
+								onclick="window.open('https://github.com/hanushgowrav66/arecanut-background-removal','_blank')"
+								value="View on github" />
+							<p align="justify">This project will design and implement a web application to recognize the object of an image and remove the background. 
+							</p>
+							<div class="tech-stack">
+								<ul>
+									<li>Python</li>
+									<li>Machine Learning</li>
+									<li>TKinter</li>
+								</ul>
+							</div>
+						</div>
+					</a>
+				</div>
+
+				<div class="col-md-4 text-center d-flex ftco-animate">
+					<a class="services-1 shadow">
+						<div class="desc">
+							<h3 class="mb-4">Pharmacy Management System</h3>
+							<input type="button" class="view-proj btn  mt-1 mb-2 mx-3"
+								
+								value="View on github" />
+							<p align="justify">The purpose of the project is to automate the existing system of manually maintained records of sales, 
+								purchases, customer info, invoices, etc.
+							</p>
+							<div class="tech-stack">
+								<ul>
+									<li>ReactJS</li>
+									<li>NodeJS</li>
+									<li>Microservices</li>
+								</ul>
+							</div>
+						</div>
+					</a>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+
+<!-- CONTACT -->
+	<section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+		<div class="container">
+			<div class="row justify-content-center mb-5 pb-3">
+				<div class="col-md-7 heading-section text-center ftco-animate">
+					<h1 class="big big-2">Contact</h1>
+					<h2 class="mb-4">Contact Me</h2>
+					<p>If you have any queries or offers, you can contact me in the following ways</p>
+				</div>
+			</div>
+
+			<div class="row d-flex contact-info mb-5">
+				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+					<div class="align-self-stretch box text-center p-4 shadow">
+						<div class="icon d-flex align-items-center justify-content-center">
+							<span class="icon-envelope"></span>
+						</div>
+						<div>
+							<h3 class="mb-4">Email Address</h3>
+							<a href="mailto:hanushgowrav66@gmail.com" target="_blank">
+								<p>hanushgowrav66@gmail.com</p>
+							</a>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+					<div class="align-self-stretch box text-center p-4 shadow">
+						<div class="icon d-flex align-items-center justify-content-center">
+							<span class="icon-phone"></span>
+						</div>
+						<div>
+							<h3 class="mb-4">Contact Number</h3>
+							<a href="tel:+919686527365"  target="_blank">
+								<p>+91 9686527365</p>
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+					<div class="align-self-stretch box text-center p-4 shadow">
+						<div class="icon d-flex align-items-center justify-content-center">
+							<span class="icon-github"></span>
+						</div>
+						<div>
+							<h3 class="mb-4">Github</h3>
+							<p><a href="https://github.com/hanushgowrav66" target="_blank">github.com/hanushgowrav66/</a></p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+					<div class="align-self-stretch box text-center p-4 shadow">
+						<div class="icon d-flex align-items-center justify-content-center">
+							<span class="icon-linkedin"></span>
+						</div>
+						<div>
+							<h3 class="mb-4">LinkedIn</h3>
+							<p><a href="https://www.linkedin.com/in/hanushgowrav66/"
+									target="_blank">inkedin.com/hanushgowrav66/</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+<!-- FOOTER -->
+	<footer class="ftco-footer ftco-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 mt-3 text-center">
+					<p> Template by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery-migrate-3.0.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="https://kit.fontawesome.com/c65eeb1af1.js" crossorigin="anonymous"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/jquery.stellar.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/aos.js"></script>
+	<script src="js/jquery.animateNumber.min.js"></script>
+	<script src="js/scrollax.min.js"></script>
+
+	<script src="js/main.js"></script>
+
 </body>
+
 </html>
